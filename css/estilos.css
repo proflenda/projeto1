@@ -1,0 +1,58 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+.static,.relative,.absolute,.fixed,.sticky {
+    width: 600px;
+    height: 100px;
+}
+
+.static{
+    background-color: blue;
+    /* Toda caixa já é static por padrão. O exemplo abaixo é inútil, mas vamos deixar para que tu saiba que é possível fazer */
+    position: static;
+    top:100px;
+    bottom:0;
+    left:500px;
+    right:0;
+}
+
+.relative{
+    background-color: red;
+    position: relative;
+    top:0px;
+    left:0;
+}
+
+.papai{
+    background-color:aqua;
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+.absolute{
+    background-color: green;
+    position: absolute;
+    bottom:150px;
+    left: 50px;
+}
+
+.fixed{
+    background-color: yellow;
+    position: fixed;
+    top:200px;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.sticky{
+    background-color:purple;
+    position: sticky;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}

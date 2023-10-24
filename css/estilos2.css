@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+ol li{
+    display: inline;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.div1{
+    width:100vw;
+    height:100vh;
+    background-color: aqua;
+}
+
+.div2{
+    width:100vw;
+    height:100vh;
+    background-color:chartreuse;
+}
+
+.div3{
+    width:100vw;
+    height:100vh;
+    background-color:crimson;
+}
